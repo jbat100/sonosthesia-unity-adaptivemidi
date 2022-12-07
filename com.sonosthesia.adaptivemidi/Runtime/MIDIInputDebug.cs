@@ -2,7 +2,7 @@ using UniRx;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
 
-namespace Sonosthesia.MIDI
+namespace Sonosthesia.AdaptiveMIDI
 {
     [RequireComponent(typeof(MIDIInput))]
     public class MIDIInputDebug : MonoBehaviour

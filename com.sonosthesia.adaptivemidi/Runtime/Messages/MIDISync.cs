@@ -1,4 +1,4 @@
-namespace Sonosthesia.MIDI
+namespace Sonosthesia.AdaptiveMIDI
 {
     public enum MIDISyncType
     {

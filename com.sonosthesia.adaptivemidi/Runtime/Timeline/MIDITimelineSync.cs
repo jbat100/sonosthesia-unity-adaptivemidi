@@ -1,10 +1,10 @@
 using System;
-using Sonosthesia.MIDI.Messages;
+using Sonosthesia.AdaptiveMIDI.Messages;
 using UniRx;
 using UnityEngine;
 using UnityEngine.Playables;
 
-namespace Sonosthesia.MIDI.Timeline
+namespace Sonosthesia.AdaptiveMIDI.Timeline
 {
     public class MIDITimelineSync : MonoBehaviour
     {

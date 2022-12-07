@@ -1,9 +1,9 @@
 using System;
-using Sonosthesia.MIDI.Messages;
 using UniRx;
 using UnityEngine;
+using Sonosthesia.AdaptiveMIDI.Messages;
 
-namespace Sonosthesia.MIDI
+namespace Sonosthesia.AdaptiveMIDI
 {
     public class MIDIInput : MonoBehaviour
     {

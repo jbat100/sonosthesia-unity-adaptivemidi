@@ -1,4 +1,4 @@
-namespace Sonosthesia.MIDI.Messages
+namespace Sonosthesia.AdaptiveMIDI.Messages
 {
     public readonly struct MIDIPolyphonicAftertouch
     {
