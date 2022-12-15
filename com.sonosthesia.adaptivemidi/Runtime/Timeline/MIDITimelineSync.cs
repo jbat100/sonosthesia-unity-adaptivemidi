@@ -1,8 +1,7 @@
-using System;
-using Sonosthesia.AdaptiveMIDI.Messages;
 using UniRx;
 using UnityEngine;
 using UnityEngine.Playables;
+using Sonosthesia.AdaptiveMIDI.Messages;
 
 namespace Sonosthesia.AdaptiveMIDI.Timeline
 {

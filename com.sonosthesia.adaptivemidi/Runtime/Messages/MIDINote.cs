@@ -1,4 +1,4 @@
-namespace Sonosthesia.AdaptiveMIDI
+namespace Sonosthesia.AdaptiveMIDI.Messages
 {
     public readonly struct MIDINote
     {
