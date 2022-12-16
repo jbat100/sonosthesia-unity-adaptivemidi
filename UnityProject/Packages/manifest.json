@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.sonosthesia.adaptivemidi": "file:/Users/jonathan/Sonosthesia/sonosthesia-unity-adaptivemidi/com.sonosthesia.adaptivemidi",
+    "com.sonosthesia.adaptivemidi": "file:../../com.sonosthesia.adaptivemidi",
     "com.unity.collab-proxy": "1.17.2",
     "com.unity.feature.development": "1.0.1",
     "com.unity.textmeshpro": "3.0.6",
