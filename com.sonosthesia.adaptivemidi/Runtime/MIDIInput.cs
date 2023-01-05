@@ -29,12 +29,12 @@ namespace Sonosthesia.AdaptiveMIDI
 
         #endregion
 
-        protected void Broadcast(MIDINote note) => _noteSubject.OnNext(note);
-        protected void Broadcast(MIDIControl control) => _controlSubject.OnNext(control);
-        protected void Broadcast(MIDIPolyphonicAftertouch aftertouch) => _polyphonicAftertouchSubject.OnNext(aftertouch);
-        protected void Broadcast(MIDIClock clock) => _clockSubject.OnNext(clock);
-        protected void Broadcast(MIDISongPositionPointer pointer) => _songPositionPointerSubject.OnNext(pointer);
-        protected void Broadcast(MIDISync sync) => _syncSubject.OnNext(sync);
+        public void Broadcast(MIDINote note) => _noteSubject.OnNext(note);
+        public void Broadcast(MIDIControl control) => _controlSubject.OnNext(control);
+        public void Broadcast(MIDIPolyphonicAftertouch aftertouch) => _polyphonicAftertouchSubject.OnNext(aftertouch);
+        public void Broadcast(MIDIClock clock) => _clockSubject.OnNext(clock);
+        public void Broadcast(MIDISongPositionPointer pointer) => _songPositionPointerSubject.OnNext(pointer);
+        public void Broadcast(MIDISync sync) => _syncSubject.OnNext(sync);
 
     }
 }
